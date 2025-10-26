@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5001;
 
 
 app.use(cors({
-  origin: ['http://localhost:5173','https://preview--crop-chain-rewards.lovable.app/'],
+  origin: ['http://localhost:5173','https://preview--crop-chain-rewards.lovable.app/', 'https://farm-yield-qgus.vercel.app'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization', 'x-wallet-address']
